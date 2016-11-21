@@ -26,11 +26,11 @@ public class ex02 {
 		c=a.length()-1;
 		for(int b=0;b<a.length();b++){
 			tal = tal + (int)(a.charAt(b)-48)*(Math.pow(how, c));
-			System.out.println(Math.pow(how, c));
+//			System.out.println(Math.pow(how, c));
 			c--;
 //			System.out.println(c);
 		}
-		System.out.println(tal);
+//		System.out.println(tal);
 		a="";
 		int tal2 = (int)tal;
 		while(tal2>0){
